@@ -22,7 +22,8 @@ namespace ApplicationCore.Domain
         public virtual Sinstre Sinstre { get; set; }
         public virtual Expert Expert { get; set; }
 
-
+        public int SinstreKey { get; set; }
+        public int ExpertKey { get; set; }
 
 
 
