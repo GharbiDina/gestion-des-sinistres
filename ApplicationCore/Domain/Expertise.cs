@@ -9,7 +9,7 @@ namespace ApplicationCore.Domain
 {
     public class Expertise
     {
-        [DataType(DataType.Date, ErrorMessage = "Please enter a valid date.")]
+        [DataType(DataType.DateTime, ErrorMessage = "Please enter a valid date.")]
       
         public DateTime DateExpertise { get; set; }
         [DataType(DataType.MultilineText)]
@@ -21,9 +21,9 @@ namespace ApplicationCore.Domain
         public double Duree { get; set; }
         public virtual Sinstre Sinstre { get; set; }
         public virtual Expert Expert { get; set; }
-
         public int SinstreKey { get; set; }
         public int ExpertKey { get; set; }
+        
 
 
 
