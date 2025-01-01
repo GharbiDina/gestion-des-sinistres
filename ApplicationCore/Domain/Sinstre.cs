@@ -15,5 +15,6 @@ namespace ApplicationCore.Domain
         public DateTime DateDeclaration  { get; set; }
         public virtual IList<Expertise> Expertises { get; set; }
         public virtual Assurance Assurance { get; set; }
+        public int AssuranceFk { get; set; }
     }
 }

@@ -12,15 +12,17 @@ namespace ApplicationCore.Domain
         [DataType(DataType.Date, ErrorMessage = "Please enter a valid date.")]
       
         public DateTime DateExpertise { get; set; }
+        [DataType(DataType.MultilineText)]
 
-        [StringLength(3, MinimumLength = 100)]
+      [StringLength(3, MinimumLength = 100)]
         public string AvisTechnique { get; set; }
         public double MontantEstime { get; set; }
 
         public double Duree { get; set; }
         public virtual Sinstre Sinstre { get; set; }
         public virtual Expert Expert { get; set; }
-      
+
+
 
 
 
