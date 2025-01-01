@@ -14,7 +14,7 @@ namespace ApplicationCore.Domain
         public DateTime DateExpertise { get; set; }
         [DataType(DataType.MultilineText)]
 
-      [StringLength(3, MinimumLength = 100)]
+        [StringLength(100, MinimumLength = 3)]
         public string AvisTechnique { get; set; }
         public double MontantEstime { get; set; }
 
