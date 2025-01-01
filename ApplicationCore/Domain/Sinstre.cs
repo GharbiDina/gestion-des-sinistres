@@ -9,7 +9,7 @@ namespace ApplicationCore.Domain
 {
     public class Sinstre
     {
-        public int Sinstreid { get; set; }
+        public int SinstreId { get; set; }
         public string Lieu { get; set; }
         public string Description { get; set; }
         public DateTime DateDeclaration  { get; set; }

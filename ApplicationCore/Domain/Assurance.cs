@@ -12,7 +12,7 @@ namespace ApplicationCore.Domain
     }
     public class Assurance
     {
-        public int Sinstreid { get; set; }
+        public int AssuranceId { get; set; }
        
         [Display(Name = "DateEffet")]
         public DateTime DateEffet { get; set; }
